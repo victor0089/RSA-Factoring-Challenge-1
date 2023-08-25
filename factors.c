@@ -29,7 +29,7 @@ number = atoll(line);
 while (flag) {
 rest = number % div;
 if (!rest) {
-ounter = number / div;
+counter = number / div;
 printf("%lld=%lld*%lld\n", number, counter, div);
 flag = 0;
 }
